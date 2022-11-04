@@ -122,14 +122,93 @@ names to something more descriptive.
 */
 
 $theme-typeface-tokens: (
-  example-serif-token: (
-    display-name: "Example Serif Display Name",
-    cap-height: 364px,
-  ),
-  example-sans-token: (
-    display-name: "Example Sans Display Name",
-    cap-height: 364px,
-  ),
+        "galaxie-polaris": (
+                display-name: "galaxie-polaris",
+                cap-height: 364px,
+                src:(
+                        dir: '../../fonts',
+                        roman: (
+                                100: false,
+                                200: false,
+                                300: false,
+                                400: 'GalaxiePolaris-Medium',
+                                500: false,
+                                600: 'GalaxiePolarisCondensed-Bold',
+                                700: 'Polaris-Bold',
+                                800: false,
+                                900: false,
+                        ),
+                        italic: (
+                                100: false,
+                                200: false,
+                                300: false,
+                                400: 'GalaxiePolaris-MediumItalic',
+                                500: false,
+                                600: false,
+                                700: 'Polaris-BoldItalic',
+                                800: false,
+                                900: false,
+                        ),
+                )
+        ),
+        "copernicus": (
+                display-name: "Copernicus",
+                cap-height: 364px,
+                src:(
+                        dir: '../../fonts',
+                        roman: (
+                                100: false,
+                                200: false,
+                                300: 'CopernicusV2-Medium',
+                                400: 'CopernicusV2-Book',
+                                500: false,
+                                600: 'CopernicusV2-Semibold',
+                                700: 'CopernicusV2-Bold',
+                                800: 'CopernicusV2-Extrabold',
+                                900: 'CopernicusV2-Heavy',
+                        ),
+                        italic: (
+                                100: false,
+                                200: false,
+                                300: 'CopernicusV2-MediumItalic',
+                                400: 'CopernicusV2-BookItalic',
+                                500: false,
+                                600: 'CopernicusV2-SemiboldItalic',
+                                700: 'CopernicusV2-BoldItalic',
+                                800: 'CopernicusV2-ExtraboldItalic',
+                                900: 'CopernicusV2-HeavyItalic',
+                        ),
+                )
+        ),
+        "gp-thin-slab": (
+                display-name: "GP Thin Slab",
+                cap-height: 364px,
+                src:(
+                        dir: '../../fonts',
+                        roman: (
+                                100: false,
+                                200: false,
+                                300: false,
+                                400: 'GPThinSlab',
+                                500: false,
+                                600: false,
+                                700: false,
+                                800: false,
+                                900: false,
+                        ),
+                        italic: (
+                                100: false,
+                                200: false,
+                                300: false,
+                                400: false,
+                                500: false,
+                                600: false,
+                                700: false,
+                                800: false,
+                                900: false,
+                        ),
+                )
+        ),
 );
 
 /*
@@ -155,10 +234,10 @@ $theme-typeface-tokens.
 */
 
 // condensed
-$theme-font-type-cond: "polaris-cond";
+$theme-font-type-cond: false;
 
 // icon
-$theme-font-type-icon: "material";
+$theme-font-type-icon: false;
 
 // language-specific
 $theme-font-type-lang: false;
@@ -167,10 +246,14 @@ $theme-font-type-lang: false;
 $theme-font-type-mono: "roboto-mono";
 
 // sans-serif
-$theme-font-type-sans: "public-sans";
+$theme-font-type-sans: "source-sans-pro";
 
 // serif
 $theme-font-type-serif: "merriweather";
+
+//$theme-font-type-galaxie: "galaxie-polaris";
+
+//$theme-font-type-copernicus: "copernicus";
 
 /*
 ----------------------------------------
@@ -200,7 +283,6 @@ $theme-font-lang-custom-stack: false;
 $theme-font-mono-custom-stack: false;
 $theme-font-sans-custom-stack: false;
 $theme-font-serif-custom-stack: false;
-
 /*
 ----------------------------------------
 Add any custom font source files
@@ -258,7 +340,6 @@ $theme-font-serif-custom-src: (
 );
 ----------------------------------------
 */
-
 $theme-font-cond-custom-src: false;
 $theme-font-icon-custom-src: false;
 $theme-font-lang-custom-src: false;
@@ -322,10 +403,10 @@ Or use `false` for unneeded weights.
 $theme-font-weight-thin: false;
 $theme-font-weight-light: 300;
 $theme-font-weight-normal: 400;
-$theme-font-weight-medium: 500;
-$theme-font-weight-semibold: 600;
+$theme-font-weight-medium: false;
+$theme-font-weight-semibold: false;
 $theme-font-weight-bold: 700;
-$theme-font-weight-heavy: 900;
+$theme-font-weight-heavy: false;
 
 // If USWDS is generating your @font-face rules,
 // should we generate all available weights
@@ -420,3 +501,4 @@ $theme-lead-font-family: "heading";
 $theme-lead-font-size: "lg";
 $theme-lead-line-height: 6;
 $theme-lead-measure: 6;
+

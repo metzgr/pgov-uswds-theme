@@ -21,14 +21,14 @@
 // ...or import custom theme settings.
 
 // @import "my-custom-theme";
-
+@import "uswds-theme";
 // -------------------------------------
 // Import individual USWDS packages...
 // See https://designsystem.digital.gov/components/
 
 // First import required and global packages...
-// @import 'packages/required';
-// @import 'packages/global';
+ //@import 'packages/required';
+ //@import 'packages/global';
 
 // Then import individual component packages...
 // @import 'packages/form-controls';

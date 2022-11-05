@@ -11,6 +11,7 @@ $theme-font-sans-custom-stack: "system-ui", "-apple-system", "Segoe UI", "Roboto
 $theme-font-serif-custom-stack: "ui-serif", "serif";
 $theme-font-lang-custom-stack: $theme-font-sans-custom-stack;
 $theme-font-cond-custom-stack: $theme-font-sans-custom-stack;
+$theme-font-type-mono: "Tesla Slab";
 .add{
   font-family: $theme-font-type-serif;
 }

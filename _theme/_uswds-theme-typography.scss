@@ -120,7 +120,7 @@ You should change `example-[style]-token`
 names to something more descriptive.
 ----------------------------------------
 */
-
+$font-stack-tesla: Dank Mono, Operator Mono, Inconsolata, "Fira Mono", ui-monospace, "SF Mono", "Monaco, Droid Sans Mono", "Source Code Pro", monospace;
 $theme-typeface-tokens: (
         "galaxie-polaris": (
                 display-name: "galaxie-polaris",
@@ -208,6 +208,11 @@ $theme-typeface-tokens: (
                                 900: false,
                         ),
                 )
+        ),
+        "Tesla Slab": (
+                display-name: "Tesla Slab",
+                cap-height: 362px,
+                stack: $font-stack-tesla,
         ),
 );
 

@@ -121,10 +121,12 @@ names to something more descriptive.
 ----------------------------------------
 */
 $font-stack-tesla: Dank Mono, Operator Mono, Inconsolata, "Fira Mono", ui-monospace, "SF Mono", "Monaco, Droid Sans Mono", "Source Code Pro", monospace;
+$font-stack-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $theme-typeface-tokens: (
         "galaxie-polaris": (
                 display-name: "galaxie-polaris",
                 cap-height: 364px,
+                stack: $font-stack-system,
                 src:(
                         dir: '../../fonts',
                         roman: (
@@ -154,6 +156,7 @@ $theme-typeface-tokens: (
         "copernicus": (
                 display-name: "Copernicus",
                 cap-height: 364px,
+                stack: $font-stack-system,
                 src:(
                         dir: '../../fonts',
                         roman: (
@@ -183,6 +186,7 @@ $theme-typeface-tokens: (
         "gp-thin-slab": (
                 display-name: "GP Thin Slab",
                 cap-height: 364px,
+                stack: $font-stack-system,
                 src:(
                         dir: '../../fonts',
                         roman: (
@@ -386,7 +390,8 @@ values from the USWDS system type scale
 ----------------------------------------
 */
 
-$theme-type-scale-3xs: 2;
+
+$theme-type-scale-3xs: "micro";
 $theme-type-scale-2xs: 3;
 $theme-type-scale-xs: 4;
 $theme-type-scale-sm: 5;

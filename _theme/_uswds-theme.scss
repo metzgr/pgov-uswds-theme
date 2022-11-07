@@ -1,4 +1,3 @@
-
 $theme-banner-background-color: "ink";
 $theme-banner-link-color: "indigo-30";
 $theme-banner-max-width: none;
@@ -7,13 +6,10 @@ $theme-font-type-serif: "copernicus";
 $theme-font-type-sans: "public-sans";
 $theme-font-type-lang: "gp-thin-slab";
 $theme-font-type-cond: "galaxie-polaris";
-$theme-font-sans-custom-stack: "system-ui", "-apple-system", "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", "sans-serif";
 $theme-font-serif-custom-stack: "ui-serif", "serif";
-$theme-font-lang-custom-stack: $theme-font-sans-custom-stack;
-$theme-font-cond-custom-stack: $theme-font-sans-custom-stack;
 $theme-font-type-mono: "Tesla Slab";
 .add{
-  font-family: $theme-font-type-serif;
+  //font-family: $theme-font-type-serif;
 }
 .remove{
   font-family: $theme-font-type-cond;

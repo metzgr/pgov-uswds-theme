@@ -260,10 +260,6 @@ $theme-font-type-sans: "source-sans-pro";
 // serif
 $theme-font-type-serif: "merriweather";
 
-//$theme-font-type-galaxie: "galaxie-polaris";
-
-//$theme-font-type-copernicus: "copernicus";
-
 /*
 ----------------------------------------
 Custom font stacks
@@ -414,9 +410,9 @@ $theme-font-weight-thin: false;
 $theme-font-weight-light: 300;
 $theme-font-weight-normal: 400;
 $theme-font-weight-medium: false;
-$theme-font-weight-semibold: false;
+$theme-font-weight-semibold: 600;
 $theme-font-weight-bold: 700;
-$theme-font-weight-heavy: false;
+$theme-font-weight-heavy: 800;
 
 // If USWDS is generating your @font-face rules,
 // should we generate all available weights
@@ -490,12 +486,12 @@ $theme-body-line-height: 5;
 $theme-style-body-element: false;
 
 // Headings
-$theme-h1-font-size: "2xl";
-$theme-h2-font-size: "xl";
-$theme-h3-font-size: "lg";
-$theme-h4-font-size: "sm";
-$theme-h5-font-size: "xs";
-$theme-h6-font-size: "3xs";
+$theme-h1-font-size: "xl";
+$theme-h2-font-size: "lg";
+$theme-h3-font-size: "sm";
+$theme-h4-font-size: "xs";
+$theme-h5-font-size: "sm";
+$theme-h6-font-size: "2xs";
 $theme-heading-line-height: 2;
 $theme-small-font-size: "2xs";
 $theme-display-font-size: "3xl";
